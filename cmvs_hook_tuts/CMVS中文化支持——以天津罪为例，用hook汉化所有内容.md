@@ -10,7 +10,7 @@ _站在巨人的肩膀上，就没有跨不过去的坎_
 
 ### 文本
 
-天津罪的文本可以用xmoe大佬的工具（https://github.com/xmoeproject/CMVS-Engine/tree/master/Ps3TextDumper）搞定，不过我们提取的时候做点改动。
+天津罪的文本可以用xmoe大佬的工具（<https://github.com/xmoeproject/CMVS-Engine/tree/master/Ps3TextDumper>）搞定，不过我们提取的时候做点改动。
 
 其实观察ps3脚本不难发现，所有的文本都在文件的最后面，也就是说他有一个区域专门存放文本，那在虚拟机代码中必然有一个跳转的offset与之对应。他可以是相对的，也可以是绝对的（这里是相对于资源区）。我们只需要把这个offset拿出来，在游戏执行这个offset跳转的时候偷换掉offset，改成我们自己存放汉化文本的地方的offset即可。
 
