@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SystemNNN_Patch", "SystemNNN_Patch\SystemNNN_Patch.vcxproj", "{716C70D1-B075-4926-960E-5DF4A485FF80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Debug|x64.ActiveCfg = Debug|x64
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Debug|x64.Build.0 = Debug|x64
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Debug|x86.ActiveCfg = Debug|Win32
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Debug|x86.Build.0 = Debug|Win32
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Release|x64.ActiveCfg = Release|x64
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Release|x64.Build.0 = Release|x64
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Release|x86.ActiveCfg = Release|Win32
+		{716C70D1-B075-4926-960E-5DF4A485FF80}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C2B4AB1-0EC0-4DA1-A22A-CD8D90E4A0F1}
+	EndGlobalSection
+EndGlobal
